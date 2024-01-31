@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>MyResume Survey Form</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="surveystyle.css">
+  </head>
+  <body>
+      <header>
+        <h1 id="title">I value your feedback.</h1>
+        <p id="description">Do you have any suggestions for my resume?</p>
+      </header>
+      <form id="survey-form" action="" method="post">
+        <fieldset class="one">
+          <label id="name-label"><span>Enter your name: </span><input type="text" id="name" name="name" required placeholder="Your Full Name"></label>
+          <label id="email-label"><span>Enter your e-mail address: </span><input type="email" name="mail" id="email" required placeholder="Your email"></label>
+          <label id="number-label"><span>Enter your experience as a fullstack developer: </span><input type="number" id="number" name="age" min="1" max="35" required placeholder="Exp"></label>
+          <label><span>Are you currently working as a FullStack Developer in any of the following companies:</span><select id="dropdown"><option>(Select One)</option><option>Google</option><option>Facebook / Meta</option><option>Netflix</option><option>Amazon</option><option>Others</option></select></label>
+        </fieldset>
+        <fieldset class="two">
+          <span class="legend">What's your First impression of this resume?</span>
+          <label><input type="radio" id="radio" name="impression" value="great"><span class="txt">Professional and polished.</span></label>
+          <label><input type="radio" name="impression" id="radio" value="bit-messy"><span class="txt">A bit cluttered and overwhelming.</span></label>
+          <label><input type="radio" name="impression" id="radio" value="messy"><span class="txt">Hard to follow or understand.</span></label>
+        </fieldset>
+        <fieldset class="three">
+          <span class="legend">How well did the resume highlight relevant keywords for a fresher fullstack developer position?</span>
+          <label><input type="radio" id="radio" name="keywords" value="good"><span class="txt">Good.</span></label>
+          <label><input type="radio" name="keywords" id="radio" value="fair"><span class="txt">Fair.</span></label>
+          <label><input type="radio" name="keywords" id="radio" value="poor"><span class="txt">Poor.</span></label>
+        </fieldset>
+        <fieldset class="four">
+          <label><span>Is there anything else I could add or improve to make my resume more impactful?</span><textarea placeholder="Enter your suggestions" rows="3" cols="30"></textarea></label>
+        </fieldset>
+        <fieldset class="fifth">
+          <label><input type="checkbox" id="checkbox" value="agree-to-contact"><span>Please tick this box if you wish to be contacted via email.</span></label>
+          <label><input type="checkbox" id="checkbox" value="agree-to-submit" required checked><span>Agree to submit all the details.</span></label>
+        </fieldset>
+        <input id="submit" type="submit" value="Submit">
+    </form>
+  </body>
+  <footer>
+    <marquee>Thank you for filling out the form.</marquee>
+  </footer>
+</html>

@@ -1,0 +1,148 @@
+/*Body Styling*/
+body {
+    margin: 0% auto;
+    width: 100%;
+    background-color: black;
+}
+/*Header Styling*/
+h1 {
+    text-align: center;
+    margin-bottom: 0;
+    font-size: 36px;
+    color: rgb(211, 79, 79);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+p {
+    text-align: center;
+    font-size: 18px;
+    color: rgb(172, 199, 163);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+/*Form Styling*/
+form {
+    margin: 0 auto;
+    width: 80%;
+    padding: 25px;
+    border: 0px solid red;
+    border-radius: 12px;
+    box-shadow: 0px 0px 10px rgb(153, 65, 65);
+    overflow: hidden;
+    background-color: grey;
+    color: rgb(0, 0, 0); 
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+/* First Fieldset*/
+.one {
+    border: none;
+    padding: 0%;
+    display: flex; flex-direction: column;
+    row-gap: 10px;
+}
+.one label {
+    display: flex; flex-wrap: wrap; justify-content: space-between;
+}
+.one label span {
+    max-width: 60%;
+    font-size: 24px;
+}
+.one label input {
+   min-width: 39%; font-size: 20px;
+}
+.one label select{
+    min-width: 39%; align-self: center;
+    font-size: 20px; 
+}
+/*Second Fieldset*/
+.two {
+    border: none;
+    margin: 15px 0;
+    padding: 0%;
+    display: flex;
+    flex-direction: column; row-gap: 10px;
+}
+.two label {
+    display: flex;
+    column-gap: 8px;
+}
+.two input {
+    margin: 0%;
+}
+.two .legend {
+    font-size: 24px;
+}
+.two .txt {
+    font-size: 20px;
+}
+/* Third Fieldset */
+.three {
+    border: none;
+    padding: 0%; 
+    display: flex;
+    flex-direction: column; row-gap: 10px;
+}
+.three .legend {
+    font-size: 24px;
+}
+.three label {
+    display: flex;
+    column-gap: 8px;
+}
+.three input {
+    margin: 0%;
+}
+.three .txt {
+    font-size: 20px;
+}
+/* Fourth field */
+.four {
+    border: none;
+    padding: 0%; margin: 15px 0;
+    display: flex; flex-wrap: wrap;
+}
+.four label {
+    display: flex; flex-direction: column; row-gap: 10px;
+}
+.four span {
+    font-size: 24px;
+}
+.four textarea {
+    font-size: 20px; 
+}
+/* Fifth fieldset*/
+.fifth {
+    border: none;
+    padding: 0%; margin: 0%; margin-bottom: 15px;
+    display: flex; flex-direction: column; flex-wrap: wrap; row-gap:10px;
+}
+.fifth label {
+    display: flex;
+    column-gap: 10px;
+}
+.fifth input {
+    margin: 0%;
+}
+.fifth span {
+    font-size: 18px;
+}
+/* Button */
+#submit {
+    margin: 0px auto;
+    display: block;
+    font-size: 25px;
+    padding: 5px;
+    border-radius: 12px;
+    border: none;
+    background-color: rgb(41, 41, 4);
+    color: white; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    box-shadow: 0px 0px 10px yellow;
+}
+#submit:hover {
+    cursor: not-allowed;
+    background-color: red;
+}
+/*Footer*/
+footer {
+    padding: 20px;
+    font-size: 18px;
+    color: white;
+}
